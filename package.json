@@ -1,0 +1,15 @@
+{
+  "name": "labpex",
+  "version": "1.0.0",
+  "description": "Pagina web de LABPEXCENUR",
+  "main": "index.html\u001b[C",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/Maguscaligul/labpex/src/master/"
+  },
+  "author": "Luca T.B.",
+  "license": "ISC"
+}
