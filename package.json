@@ -4,6 +4,7 @@
   "description": "Pagina web de LABPEXCENUR",
   "main": "index.html\u001b[C",
   "scripts": {
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,5 +12,8 @@
     "url": "https://bitbucket.org/Maguscaligul/labpex/src/master/"
   },
   "author": "Luca T.B.",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
