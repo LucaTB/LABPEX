@@ -6,10 +6,13 @@
     <meta name="apple-touch-fullscreen" content="YES">
     <title> LABPEX </title>
     <link rel="stylesheet" type="text/css" href="estilos.css"/>
+    <link rel="stylesheet" href="fonts.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="arriba.js"></script>
   </head>
   <body>
-
+    <span class="ir-arriba icon-arrow-up" onclick="scrollToTop(1000);"></span>
     <header class="header">
       <img class="imag" src="Imagenes/LOGO.jpg" width="200" alt="LabPexCenur">
       <input type="checkbox" id="btn-menu">
@@ -19,7 +22,7 @@
 
       <nav class="menu">
       <ul>
-        <li><a href="LABNET.html">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="comopart.html">¿Cómo participar?</a></li>
         <li><a href="">Organización</a></li>
         <li><a href="equipos.html">Equipos</a></li>
@@ -55,7 +58,12 @@
 
       <div class="box">
         <h2> <b>Funciones con las que cumplen los pasantes:</b></h2>
-          <p>Apoyar al coordinador del laboratorio en sus tareas y funciones.</p><p>Apoyar y orientar a los usuarios en el uso eficiente y correcto del laboratorio, sus instrumentos, equipamiento e insumos.</p><p>Capacitarse de manera continua para ejercer sus funciones, estableciendo un plan de acuerdo con el coordinador y, eventualmente, docentes o investigadores de los servicios de la RN sede Salto.</p><p>Informar del uso inadecuado del laboratorio por parte de los usuarios o terceros.</p>
+        <ul>
+          <li>Apoyar al coordinador del laboratorio en sus tareas y funciones.</li>
+          <li>Apoyar y orientar a los usuarios en el uso eficiente y correcto del laboratorio, sus instrumentos, equipamiento e insumos.</li>
+          <li>Capacitarse de manera continua para ejercer sus funciones, estableciendo un plan de acuerdo con el coordinador y, eventualmente, docentes o investigadores de los servicios de la RN sede Salto.</li>
+          <li>Informar del uso inadecuado del laboratorio por parte de los usuarios o terceros.</li>
+        </ul>
       </div>
 
       <div class="boxI" style="background-image:url(Imagenes/TB.JPG)">
@@ -65,21 +73,11 @@
       <div class="boxI" style="background-image:url(Imagenes/Vic.png)">
         <span class="titim">Bar. Victoria Sosa</span>
       </div>
-
-      <div class="boxI" style="background-image:url(Imagenes/Lu.jpeg)">
-        <span class="titim">Bar. Lourdes Bellagamba</span>
-      </div>
-
-
-      <div class="boxI" style="background-image:url(Imagenes/Jon.jpeg)">
-        <span class="titim">Bar. Jonathan López</span>
-      </div>
     </div>
 
     <div class="footer">
       <img class="inst" src="Imagenes/UDELAR.jpg" alt=UDELAR>
-      <img class="inst" src="Imagenes/CLN.jpg">
+      <img class="inst" src="Imagenes/CLN.jpg" alt=CENURLitoralNorte>
     </div>
-    <a title="Ascensor" class="btn-btt" href="#Top" style="">Encima</a>
   </body>
 </html>

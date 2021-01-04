@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
     <meta name="apple-touch-fullscreen" content="YES">
     <title> LABPEX </title>
-    <link rel="stylesheet" type="text/css" href="estilos.css"/>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link rel="stylesheet" href="fonts.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="arriba.js"></script>
   </head>
   <body>
+    <span class="ir-arriba icon-arrow-up" onclick="scrollToTop(1000);"></span>
     <header>
       <img class="imag" src="Imagenes/LOGO.jpg" width="200" alt="LabPexCenur">
       <input type="checkbox" id="btn-menu">
-      <label for="btn-menu">
-        <img src="Imagenes/LOGO (solo).jpg" width="35" alt="">
+      <label for="btn-menu"> <img src="Imagenes/LOGO (solo).jpg" width="35" alt="">
       </label>
       <nav class="menu">
         <ul>
@@ -42,14 +45,24 @@
 
     <div class="box">
       <h2>Cometidos</h2>
-      <p>Producir conocimiento científico sobre los procesos cognitivos y la conducta humana, en el ánimo de albergar estudios experimentales y cuasi-experimentales desde distintas tradiciones teóricas que los explican.</p><p>Desarrollar una investigación que permita a las distintas especialidades de la Psicología, particularmente las profesionalizantes, fundamentar sus proposiciones, axiomas, procedimientos, técnicas y modos de intervención en un conocimiento actualizado de los procesos cognitivos.</p> <p>Fomentar y albergar proyectos interdisciplinarios entre los servicios de la RN y de otras sedes de la UdelaR que involucren a los procesos cognitivos como variable principal o como una de las variables en el estudio de la conducta humana.</p> <p>Promover la participación de los investigadores de los distintos servicios de la RN en la dirección académica del laboratorio y de estos y de los estudiantes de grado y posgrado en proyectos de investigación dedicados al estudio de los procesos cognitivos y de la conducta humana. </p> <p>Promover la participación de los estudiantes de grado y posgrado de la RN sede Salto en proyectos de investigación como estrategia de enseñanza en investigación. </p> <p>Promover la colaboración en investigación y enseñanza de la misma con los centros de investigación de la Facultad de la Psicología de la UdelaR en cualquiera de sus sedes.</p>
+      <ul>
+        <li>Producir conocimiento científico sobre los procesos cognitivos y la conducta humana, en el ánimo de albergar estudios experimentales y cuasi-experimentales desde distintas tradiciones teóricas que los explican.</li>
+        <li>Desarrollar una investigación que permita a las distintas especialidades de la Psicología, particularmente las profesionalizantes, fundamentar sus proposiciones, axiomas, procedimientos, técnicas y modos de intervención en un conocimiento actualizado de los procesos cognitivos.</li>
+        <li>Fomentar y albergar proyectos interdisciplinarios entre los servicios de la RN y de otras sedes de la UdelaR que involucren a los procesos cognitivos como variable principal o como una de las variables en el estudio de la conducta humana.</li>
+        <li>Promover la participación de los investigadores de los distintos servicios de la RN en la dirección académica del laboratorio y de estos y de los estudiantes de grado y posgrado en proyectos de investigación dedicados al estudio de los procesos cognitivos y de la conducta humana. </li>
+        <li>Promover la participación de los estudiantes de grado y posgrado de la RN sede Salto en proyectos de investigación como estrategia de enseñanza en investigación. </li>
+        <li>Promover la colaboración en investigación y enseñanza de la misma con los centros de investigación de la Facultad de la Psicología de la UdelaR en cualquiera de sus sedes.</li>
+      </ul>
     </div>
 </div>
     <div class="footer">
+
       <h4>Laboratorio de Psicología Experimental <a href="http://www.unorte.edu.uy" target="_blank">CENUR Litoral Norte Cede Salto </a> </h4>
       <p>Gral. Rivera 1350. Salto. CP: 50.000 | Tel: 473 34816 int. 137. Fax: 473 22154 <br> labpexcenur@gmail.com <br> </p>
       <img class="inst" src="Imagenes/logo_cenur_2017.png" alt=UDELAR>
     </div>
-    <a title="Ascensor" class="btn-btt" href="#Top" style="">Encima</a>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>

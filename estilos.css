@@ -88,15 +88,15 @@ header label:hover {
   margin: 20px;
   width: auto;
   text-align: left;
-  padding: 0 20px;
+  padding: 20 20px;
   border-radius: 20px;
   opacity: 100%;
 }
 
 .box h2 {
-  width: 100%;
-  margin-left: -20px;
-  padding: 20px;
+  width: auto;
+  margin-left: -1px;
+  padding: 15px;
   -webkit-border-top-left-radius: 20px;
 -webkit-border-top-right-radius: 20px;
 -moz-border-radius-topleft: 20px;
@@ -108,18 +108,13 @@ color: #fff;
 font-size: 20px;
 }
 
-.header{
-
-
-}
-
 .boxI {
   overflow: hidden;
   margin: 15px;
-  width: 200px;
+  width: auto;
   height: 300px;
   text-align: center;
-  padding: 10px;
+  padding: 20 20px;
   align-content: center;
   border: 5px solid #769b05;
   border-radius: 20px;
@@ -138,12 +133,17 @@ font-size: 20px;
   flex-direction: row;
   justify-content: center;
   background-color: #b5b5b5;
-  margin: 0;
+  margin: 20;
+  border-radius: 15px;
   position: static;
-  width: 100%;
+  width: 75%;
   height: 150px;
   text-align: left;
   padding-left: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: auto;
+    color: #ffffff;
 }
 
 .insti {
@@ -154,6 +154,8 @@ font-size: 20px;
 .inst {
   float: right;
   align-items: : center;
+  width: auto;
+  height: auto;
 }
 
 div {
@@ -203,40 +205,52 @@ input, textarea{
   margin-bottom: 5px;
 }
 
-
-
-.btn-btt {
-    background: #212f3c;
-    bottom: 30px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    color: white;
+.ir-arriba {
     display: block;
-    font-size: 0;
-    height: 50px;
-    line-height: 50px;
+    padding: 20px;
+    background-color: rgba(33, 47, 60, 1);
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
     position: fixed;
-    right: 0;
-    text-align: center;
-    -webkit-transition: all 300ms;
-    -moz-transition: all 300ms;
-    transition: all 300ms;
-    width: 50px;
-    z-index: 999;
+    bottom:-100px;
+    right: 20px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out bottom;
   }
 
-  .btn-btt:before {
-    content: "\f077";
-    display: inline-block;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-size: 14px;
-    text-align: center;
+  .arriba2 {
+    bottom: 20px;
+  }
+
+  .ir-arriba:hover {
+      background-color: rgba(33, 47, 60, 0.8);
+  }
+
+.box input, textarea {
     width: 100%;
+    background: #282828;
+    border: 1px solid #393939;
+    padding: 7px 10px;
+    margin: 0px 0px 10px 0px;
+    background-color: #FAFAFA;
+}
+
+.box textarea {
+    height: 100px;
+}
+
+
+.box .btn-primary {
+    background: #212f3c;
+    border: none;
+    border-radius: 0px;
+    color: #ffffff;
+    font-weight: 800;
+}
+
+.box .btn-primary:hover {
+    background: rgba(0, 0, 0, 0.7);
 }
 
 @media (max-width:768px) {
@@ -253,9 +267,11 @@ input, textarea{
   .menu ul {
     flex-direction: column;
   }
+
   .menu li {
     border-top: 1px solid #174b87
   }
+
   #btn-menu:checked ~ .menu {
      margin: 0;
 
@@ -265,10 +281,6 @@ input, textarea{
     display: none;
   }
 
-  .btn-btt:hover, .btn-btt:focus {
-    background: #333333;
-    color: white;
-  }
 
   a:hover, a:focus {
     color: #7d7d7d;
@@ -298,8 +310,9 @@ input, textarea{
       -moz-box-sizing: border-box;
       box-sizing: border-box;
   }
-  *:before, *:after {
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      box-sizing: border-box;
+
+  h1{
+    font-size: auto;
+
   }
+}
